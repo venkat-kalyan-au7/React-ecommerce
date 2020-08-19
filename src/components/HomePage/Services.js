@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import { FaDolly, FaRedo, FaDollarSign } from "react-icons/fa";
+import { FaDolly, FaRedo } from "react-icons/fa";
 export default class Services extends Component {
   state = {
     services: [
@@ -9,22 +9,16 @@ export default class Services extends Component {
         icon: <FaDolly />,
         title: "free shipping",
         text:
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, accusamus."
+          "Flexible selection of delivery time."
       },
       {
         id: 2,
         icon: <FaRedo />,
         title: "30 days return policy",
         text:
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, accusamus."
+          " You can return if you dont like product within 30days."
       },
-      {
-        id: 3,
-        icon: <FaDollarSign />,
-        title: "secured payment",
-        text:
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, accusamus."
-      }
+     
     ]
   };
   render() {
